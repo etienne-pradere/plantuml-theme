@@ -347,6 +347,7 @@ skinparam note {
 	BorderThickness 1
 	BackgroundColor $BG_NOTE
 	BorderColor $BG_NOTE_BORDER
+	NoteBorderColor $BG_NOTE_BORDER
 	FontColor $INFO_TEXT
 }
 !endsub
@@ -368,7 +369,7 @@ skinparam component {
 !startsub interface
 skinparam interface {
 	BackgroundColor  $DANGER_DARK
-	BorderColor  $DANGER
+	BorderColor  $BG_NOTE_BORDER
 	FontColor $DARK
 }
 !endsub

@@ -32,6 +32,8 @@ skinparam useBetaStyle false
 !$DARK       = "#78838E"
 !$DB 	       = "#4B82A4"
 !$DB_DARK    = "#000000"
+!$BG_NOTE     = "#FF9F02"
+!$BG_NOTE_BORDER ="#B36200"
 ''
 '' define colors based on PUML_MODE
 ''
@@ -342,8 +344,8 @@ skinparam agent {
 !startsub note
 skinparam note {
 	BorderThickness 1
-	BackgroundColor "#FF9F02"
-	BorderColor "#B36200"
+	BackgroundColor $BG_NOTE
+	BorderColor $BG_NOTE_BORDER
 	FontColor $INFO_TEXT
 }
 !endsub

@@ -26,7 +26,7 @@ skinparam useBetaStyle false
 !$WHITE      = "#FFF"
 !$GRAY_LIGHT = "#222"
 !$GRAY       = "#868e96"
-!$PRIMARY    = "#EC7211"
+!$PRIMARY    = "#00adef"
 !$WARNING    = "#EC7211"
 !$LIGHT      = "#abb6c2"
 !$DARK       = "#78838E"
@@ -163,7 +163,7 @@ skinparam roundcorner           8
 skinparam ParticipantPadding    40
 skinparam BoxPadding            40
 skinparam Padding               5
-skinparam ArrowColor            red
+skinparam ArrowColor            $DARK
 skinparam stereotype {
     CBackgroundColor $SECONDARY_LIGHT
     CBorderColor $SECONDARY_DARK

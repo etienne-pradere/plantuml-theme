@@ -34,6 +34,7 @@ skinparam useBetaStyle false
 !$DB_DARK    = "#000000"
 !$BG_NOTE     = "#FF9F02"
 !$BG_NOTE_BORDER ="#B36200"
+!$ARROW_COLOR =  "#999D9E"
 ''
 '' define colors based on PUML_MODE
 ''
@@ -167,7 +168,7 @@ skinparam roundcorner           8
 skinparam ParticipantPadding    40
 skinparam BoxPadding            40
 skinparam Padding               5
-skinparam ArrowColor            $DARK
+skinparam ArrowColor            $ARROW_COLOR
 skinparam stereotype {
     CBackgroundColor $SECONDARY_LIGHT
     CBorderColor $SECONDARY_DARK
@@ -250,7 +251,7 @@ skinparam actor {
 !startsub arrow
 skinparam arrow {
 	Thickness 3
-	Color $PRIMARY
+	Color $ARROW_COLOR
 	FontColor $FGCOLOR
 }
 !endsub

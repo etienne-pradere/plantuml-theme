@@ -29,7 +29,7 @@ skinparam useBetaStyle false
 !$PRIMARY    = "#EC7211"
 !$WARNING    = "#EC7211"
 !$LIGHT      = "#abb6c2"
-!$DARK       = "#4E5D6C"
+!$DARK       = "#78838E"
 ''
 '' define colors based on PUML_MODE
 ''

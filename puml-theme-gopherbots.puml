@@ -31,6 +31,7 @@ skinparam useBetaStyle false
 !$LIGHT      = "#abb6c2"
 !$DARK       = "#78838E"
 !$DB 	       = "#4B82A4"
+!$DB_DARK    = "#000000"
 ''
 '' define colors based on PUML_MODE
 ''
@@ -341,8 +342,8 @@ skinparam agent {
 !startsub note
 skinparam note {
 	BorderThickness 1
-	BackgroundColor $INFO_BG
-	BorderColor $INFO_DARK
+	BackgroundColor "#FF9F02"
+	BorderColor "#B36200"
 	FontColor $INFO_TEXT
 }
 !endsub
@@ -396,7 +397,7 @@ skinparam cloud {
 !startsub database
 skinparam database {
 	FontColor $PRIMARY
-	BorderColor $PRIMARY
+	BorderColor $DB_DARK
 	BackgroundColor $DB 	
 	FontColor $FGCOLOR
 	StereotypeFontColor $FGCOLOR

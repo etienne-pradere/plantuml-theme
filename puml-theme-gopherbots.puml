@@ -30,6 +30,7 @@ skinparam useBetaStyle false
 !$WARNING    = "#00adef"
 !$LIGHT      = "#abb6c2"
 !$DARK       = "#78838E"
+!$DB 	       = "#4B82A4"
 ''
 '' define colors based on PUML_MODE
 ''
@@ -394,7 +395,9 @@ skinparam cloud {
 
 !startsub database
 skinparam database {
-	$primary_scheme()
+	FontColor $PRIMARY
+	BorderColor $PRIMARY
+	BackgroundColor $DB 	
 	FontColor $FGCOLOR
 	StereotypeFontColor $FGCOLOR
 }

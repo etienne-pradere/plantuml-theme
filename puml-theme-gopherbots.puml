@@ -163,7 +163,7 @@ skinparam roundcorner           8
 skinparam ParticipantPadding    40
 skinparam BoxPadding            40
 skinparam Padding               5
-skinparam ArrowColor            $DARK
+skinparam ArrowColor            red
 skinparam stereotype {
     CBackgroundColor $SECONDARY_LIGHT
     CBorderColor $SECONDARY_DARK
